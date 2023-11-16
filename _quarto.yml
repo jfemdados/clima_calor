@@ -1,5 +1,30 @@
 project:
-  title: "clima_calor"
+  title: "Análise da temperatura em Juiz de Fora"
+  ooutput-dir: output
+
+# format
+format:
+  html:
+    embed-resources: true
+    toc: true
+    toc-depth: 3
+    number-sections: true
+    
+# execution
+execute: 
+  echo: false
+  message: false
+  warning: false
+  error: false
+
+# figures
+fig-align: center
+fig-width: 6.3
+fig-format: png
+fig-dpi: 300
+
+# tables
+df-print: kable
 
 editor: visual
 
